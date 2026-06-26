@@ -1,0 +1,8 @@
+{
+  "curator": {
+    "mb-root-2026": "ed25519:6Dv6qdvLGi09paqDQyn+jCyehrOC8SnEtc/YOiOSm3I="
+  },
+  "attestor": {
+    "mb-attestor-2026": "ed25519:CCsk9j9b3XaA/wowVY69d0DG2g1KJC9VekjABqpL5CM="
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": 1,
+  "index": {
+    "name": "The Model Bay Curated",
+    "publisher": {
+      "key_id": "mb-root-2026",
+      "pubkey": "ed25519:6Dv6qdvLGi09paqDQyn+jCyehrOC8SnEtc/YOiOSm3I="
+    },
+    "updated_at": "2026-06-26T00:00:00Z"
+  },
+  "entries": [
+    {
+      "name": "LateOn (3_Dense demo subset)",
+      "hf_repo": "lightonai/LateOn",
+      "revision": "9b9fa8b2df6a55f206485f27ee8f20ff7d9feaaf",
+      "infohash": {
+        "btmh": "1220fced8f33fd9af92fc67e145afbfd1d7ec099adaaad13bf6cc95b9d0062ae87d3",
+        "btih": "5e70738e20d272b8565cb1bf0d7c1cbe1f08f93f"
+      },
+      "files": [
+        {
+          "path": "3_Dense/model.safetensors",
+          "sha256": "b72fa40e3d3f5739ddc72b09d3b67a0127c9bb0d90d8b0d3ef582330b6549c93",
+          "size": "393304"
+        }
+      ],
+      "attestation": {
+        "hf_repo": "lightonai/LateOn",
+        "revision": "9b9fa8b2df6a55f206485f27ee8f20ff7d9feaaf",
+        "hf_file_hashes": {
+          "3_Dense/model.safetensors": "b72fa40e3d3f5739ddc72b09d3b67a0127c9bb0d90d8b0d3ef582330b6549c93"
+        },
+        "verified_at": "2026-06-26T00:00:00Z",
+        "verified_by": "mb-attestor-2026"
+      },
+      "signatures": [
+        {
+          "role": "attestor",
+          "key_id": "mb-attestor-2026",
+          "alg": "ed25519",
+          "sig": "zpHCzMQ+WGVA5HMoxfqLcO2ZogCAuuQY56PDlVor7XOEsGtipQTh8QLYPykDfZ9z1lXlYx9+tfLjvBpB7Vv9Cw=="
+        }
+      ]
+    }
+  ],
+  "signatures": [
+    {
+      "role": "curator",
+      "key_id": "mb-root-2026",
+      "alg": "ed25519",
+      "sig": "0Qo/+90++e+hFcAvGCUJWw6qSHmXQj1DkThyQA3qd9grhw805+UEYzRGEO+/4AHmNx6USFF/YvNpFu901s5uDQ=="
+    }
+  ]
+}
