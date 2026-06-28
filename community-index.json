@@ -1,0 +1,150 @@
+{
+  "format_version": 1,
+  "index": {
+    "name": "The Model Bay Community",
+    "publisher": {
+      "key_id": "mb-attestor-2026",
+      "pubkey": "ed25519:CCsk9j9b3XaA/wowVY69d0DG2g1KJC9VekjABqpL5CM="
+    },
+    "updated_at": "2026-06-28T02:16:12Z"
+  },
+  "entries": [
+    {
+      "name": "LateOn-Code-edge",
+      "hf_repo": "lightonai/LateOn-Code-edge",
+      "revision": "07ef20f406c86badca122464808f4cac2f6e4b25",
+      "infohash": {
+        "btmh": "122009b7a22e4836bc295661afd27515b950ade03d9eda2fa927e7ffe9a1e5b43bd5",
+        "btih": "13aabaf094c2f0118d16190d34b58225c86f4029"
+      },
+      "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "size": "1519"
+        },
+        {
+          "path": "1_Dense/config.json",
+          "sha256": "778498303dd2b9b40b127a779f2ca2a49da8d6cf9d850492710c6db3cf7bb34b",
+          "size": "160"
+        },
+        {
+          "path": "1_Dense/model.safetensors",
+          "sha256": "9efb17fcb2106cd8fcb01d57a9cd9c997a487ad20630ec8e44ce3f9d89efe0a7",
+          "size": "524376"
+        },
+        {
+          "path": "2_Dense/config.json",
+          "sha256": "468e536293d2aae980aac3577250d2d1305b562e30eafc782feefcf15a5a9ba8",
+          "size": "159"
+        },
+        {
+          "path": "2_Dense/model.safetensors",
+          "sha256": "a7a388138b3c4bb1a81c8c3bcb9de123f1e652b9e9464a72707ca19ee86a26b1",
+          "size": "98392"
+        },
+        {
+          "path": "README.md",
+          "sha256": "ab48eb550b841191334d99dbe99b13aac90f9c3f10f7ddf0ea2e924616265aed",
+          "size": "134257"
+        },
+        {
+          "path": "config.json",
+          "sha256": "c1413b20ad05927b8226aa2223b3ae104cd04c8541fe1300bdcf455fc8667601",
+          "size": "1252"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "sha256": "34942289dec20e285b07132aa1d09980ed776a0bc34e531dd7b49c4701876871",
+          "size": "762"
+        },
+        {
+          "path": "model.onnx",
+          "sha256": "ac5a92a685512b163c3c591438f518379309d2a98c4818a9c6e2986f789dc8ef",
+          "size": "67970609"
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "7ffc36b8ff71367249cd5220dbdd4bdbe177bc0e305b2e978a8b598bd8296f04",
+          "size": "67195976"
+        },
+        {
+          "path": "model_int8.onnx",
+          "sha256": "eac35bdaa862e2762e6455337f7a3e704b05dbc4259f00929fcc8e10207f11c7",
+          "size": "17228399"
+        },
+        {
+          "path": "modules.json",
+          "sha256": "930b80c6d74f342665da7c56d01a9d906176ba3c74dd9f332cea8922121c4bbf",
+          "size": "319"
+        },
+        {
+          "path": "onnx_config.json",
+          "sha256": "fa4fef89820dcdc33c5504c62c1d5efc19603cfbfebf02368a70d51a4dbe6651",
+          "size": "792"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "sha256": "fb7288b98b76cbd57650bc99cd902152eb045d0c8a9e30c274cf2a46f04fcf30",
+          "size": "57"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "sha256": "6edfb9d64c0d7e5cbaa53516e90280fe1f42ba5ea7923d005a5f9b6e082142cf",
+          "size": "581"
+        },
+        {
+          "path": "tokenizer.json",
+          "sha256": "a388b94942e98e5c661c6c23f919842285738bfd123a0d148dea0c56287505d0",
+          "size": "3583847"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "sha256": "1621afee1f3dbc2c42901841ca46016c83102a8e070d32b90f80f80b214172a4",
+          "size": "21373"
+        }
+      ],
+      "attestation": {
+        "hf_repo": "lightonai/LateOn-Code-edge",
+        "revision": "07ef20f406c86badca122464808f4cac2f6e4b25",
+        "hf_file_hashes": {
+          ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "1_Dense/config.json": "778498303dd2b9b40b127a779f2ca2a49da8d6cf9d850492710c6db3cf7bb34b",
+          "1_Dense/model.safetensors": "9efb17fcb2106cd8fcb01d57a9cd9c997a487ad20630ec8e44ce3f9d89efe0a7",
+          "2_Dense/config.json": "468e536293d2aae980aac3577250d2d1305b562e30eafc782feefcf15a5a9ba8",
+          "2_Dense/model.safetensors": "a7a388138b3c4bb1a81c8c3bcb9de123f1e652b9e9464a72707ca19ee86a26b1",
+          "README.md": "ab48eb550b841191334d99dbe99b13aac90f9c3f10f7ddf0ea2e924616265aed",
+          "config.json": "c1413b20ad05927b8226aa2223b3ae104cd04c8541fe1300bdcf455fc8667601",
+          "config_sentence_transformers.json": "34942289dec20e285b07132aa1d09980ed776a0bc34e531dd7b49c4701876871",
+          "model.onnx": "ac5a92a685512b163c3c591438f518379309d2a98c4818a9c6e2986f789dc8ef",
+          "model.safetensors": "7ffc36b8ff71367249cd5220dbdd4bdbe177bc0e305b2e978a8b598bd8296f04",
+          "model_int8.onnx": "eac35bdaa862e2762e6455337f7a3e704b05dbc4259f00929fcc8e10207f11c7",
+          "modules.json": "930b80c6d74f342665da7c56d01a9d906176ba3c74dd9f332cea8922121c4bbf",
+          "onnx_config.json": "fa4fef89820dcdc33c5504c62c1d5efc19603cfbfebf02368a70d51a4dbe6651",
+          "sentence_bert_config.json": "fb7288b98b76cbd57650bc99cd902152eb045d0c8a9e30c274cf2a46f04fcf30",
+          "special_tokens_map.json": "6edfb9d64c0d7e5cbaa53516e90280fe1f42ba5ea7923d005a5f9b6e082142cf",
+          "tokenizer.json": "a388b94942e98e5c661c6c23f919842285738bfd123a0d148dea0c56287505d0",
+          "tokenizer_config.json": "1621afee1f3dbc2c42901841ca46016c83102a8e070d32b90f80f80b214172a4"
+        },
+        "verified_at": "2026-06-28T02:16:12Z",
+        "verified_by": "mb-attestor-2026"
+      },
+      "signatures": [
+        {
+          "role": "attestor",
+          "key_id": "mb-attestor-2026",
+          "alg": "ed25519",
+          "sig": "MebBy41FIU5WNU1VcbIufQSyfd3sK1fICrGu6/BTng/hrPMX+CmEyXnE+pVKplX8DnbuWLJHer5NtrGt0kQWBA=="
+        }
+      ]
+    }
+  ],
+  "signatures": [
+    {
+      "role": "attestor",
+      "key_id": "mb-attestor-2026",
+      "alg": "ed25519",
+      "sig": "qGyPF5q94xWy57BarmmwDRaVwkutsCv1XbxLlNiEkhIzhb0kxgWPwawse2STrVux+BVirbYg2matqjUpCIjODQ=="
+    }
+  ]
+}
